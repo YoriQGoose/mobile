@@ -1,0 +1,76 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Задание 1: Кнопка с выводом фамилии -->
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Показать фамилию"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Задание 2: Кнопка с изменением текста -->
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Изменить текст"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Задание 3: Три кнопки -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/button3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Кнопка 1"/>
+
+        <Button
+            android:id="@+id/button3_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Кнопка 2"
+            android:layout_marginStart="16dp"/>
+
+        <Button
+            android:id="@+id/button3_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Кнопка 3"
+            android:layout_marginStart="16dp"/>
+    </LinearLayout>
+
+    <!-- Задание 5: Две кнопки -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/button5_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Кнопка A"/>
+
+        <Button
+            android:id="@+id/button5_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Кнопка B"
+            android:layout_marginStart="16dp"/>
+    </LinearLayout>
+</LinearLayout>
